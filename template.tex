@@ -1,0 +1,75 @@
+\documentclass{article}
+\usepackage{graphicx,fancyhdr,amsmath,amssymb,amsthm,subfig,url,hyperref}
+\usepackage[margin=1in]{geometry}
+
+%----------------------- Macros and Definitions --------------------------
+
+%%% FILL THIS OUT
+\newcommand{\studentname}{Pramesh Kumar}
+\newcommand{\suid}{prameshk}
+\newcommand{\exerciseset}{Homework 1}
+%%% END
+
+
+
+\renewcommand{\theenumi}{\bf \Alph{enumi}}
+
+%\theoremstyle{plain}
+%\newtheorem{theorem}{Theorem}
+%\newtheorem{lemma}[theorem]{Lemma}
+
+\fancypagestyle{plain}{}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[RO,LE]{\sffamily\bfseries\large Indian Institute of Technology Madras}
+\fancyhead[LO,RE]{\sffamily\bfseries\large CE 3205: Traffic Engineering}
+\fancyfoot[LO,RE]{\sffamily\bfseries\large \studentname: \suid @iitm.ac.in}
+\fancyfoot[RO,LE]{\sffamily\bfseries\thepage}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+
+\graphicspath{{figures/}}
+
+%-------------------------------- Title ----------------------------------
+
+\title{CE 3205 \exerciseset}
+\author{\studentname \qquad IITM-ID: \suid}
+
+%--------------------------------- Text ----------------------------------
+
+\begin{document}
+\maketitle
+
+\section*{Problem 1}
+\begin{enumerate}
+\item %A
+One can write the set of feasible link flows as below:
+\begin{eqnarray}
+	\left\{x \in \mathbb{R}^{\vert A \vert} : \sum_{j \in FS(i)} x_{ij}^{rs}  - \sum_{j \in BS(i)}  x_{ji}^{rs} = b_{i}^{rs}, \forall rs \in Z^2\right\}, 
+\end{eqnarray}
+	where, 
+
+\item %B
+Next one here.
+
+\item %C
+42
+
+\end{enumerate}
+
+\section*{Problem 2}
+\begin{enumerate}
+\item %A
+
+\item %B
+
+\item %C
+
+\item %D
+
+\item %E
+
+\end{enumerate}
+
+
+\end{document}
